@@ -1,0 +1,25 @@
+.header {
+  padding: 10px;
+  /* background: #ed; */
+  border-bottom: 1px solid #999;
+}
+
+.header a {
+  color: #0072ff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.header a:hover {
+  color: crimson;
+}
+
+.header .active {
+  color: #2c7612;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
