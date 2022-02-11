@@ -27,7 +27,7 @@ const Dashboard = () => {
           });
         });
     }, 200);
-  }, [setOptions, studentSelected, topicData, options, dispatch]);
+  }, [dispatch]);
 
   const handleStudentChange = (event) => {
     //We want to be able to store the student name and _id
